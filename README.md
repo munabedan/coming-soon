@@ -4,7 +4,7 @@
 * [Setup](#setup)
 
 ## General info
-An online crowd insvestment platform. 
+A website under construction template.
 	
 ## Technologies
 Project is created with:
