@@ -1,0 +1,54 @@
+ /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+ body, html {
+    height: 100%
+  }
+ body{
+   margin: 0px;
+ }
+  .banner-image {
+    background-image: url("metal.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+
+    filter: brightness(50%);
+  }
+  
+  /* Position text in the top-left corner */
+  .topleft {
+    filter: brightness(1.7);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+  
+  /* Position text in the bottom-left corner */
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+  }
+  
+  /* Position text in the middle */
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+
+  }
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  } 
